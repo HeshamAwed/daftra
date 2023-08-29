@@ -1,0 +1,59 @@
+name: daftra
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.5
+  animated_splash_screen: ^1.3.0
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  shared_preferences: ^2.0.15
+  provider: ^6.0.3
+  retrofit: ^3.0.1+1
+  json_annotation: ^4.7.0
+  equatable: ^2.0.5
+  dio: ^4.0.6
+  flutter_svg: ^2.0.0+1
+  floor: ^1.4.2
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  injectable_generator:
+  build_runner:
+  json_serializable: ^6.4.0
+  retrofit_generator: ^4.1.0+1
+  flutter_launcher_icons: ^0.11.0
+  floor_generator: ^1.4.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: gilroy
+      fonts:
+        - asset: assets/fonts/gilroy_extra_bold.otf
+        - asset: assets/fonts/gilroy_light.otf

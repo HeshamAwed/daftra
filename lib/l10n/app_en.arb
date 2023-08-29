@@ -1,0 +1,13 @@
+{
+  "home_app_title": "Daftra",
+  "ok": "Ok",
+  "email_and_password_msg": "\"Email address that matches this format: WWW.DDDD@izam.co, where each 'W' stands for a character between a-z either capital or small case, and each 'D' stands for a number 0-9. The password also needs to have no less than 8 characters, and at least 1 number, and one of the following symbols (!\\$#^*)",
+  "incorrect_password": "Email or password is incorrect",
+  "login_successful": "Login is successful",
+  "login_data":"{email} and {password} login for the {times} time",
+  "welcome": "Welcome, login",
+  "forget_password": "Forget Password?",
+  "login": "Login",
+  "password": "Password",
+  "email": "Email address"
+}
